@@ -83,11 +83,11 @@ body {
   letter-spacing: 3.5rem;
 
   animation-name: moveInLeft;
-  animation-duration: 1s;
+  animation-duration: 1s;   
   animation-timing-function: ease-out;
 
-  /* animation-iteration-count: 3; */
-  /* animation-delay: 3s; */
+  animation-iteration-count: 3;
+  animation-delay: 3s;
 }
 
 .heading-primary--sub {
@@ -138,60 +138,6 @@ body {
   }
 }
 
-// .btn:link,
-// .btn:visited {
-//   text-transform: uppercase;
-//   text-decoration: none;
-//   padding: 1.5rem 4rem;
-//   display: inline-block;
-//   border-radius: 10rem;
-//   transition: all 0.2s;
-//   position: relative;
-// }
-
-// .btn:hover {
-//   transform: translateY(-0.3rem);
-//   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-// }
-
-// .btn:active {
-//   transform: translateY(-0.1rem);
-// //   box-shadow: 0 1rem 2rem;
-//   box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.2);
-// }
-
-// .btn--white {
-//   background-color: $color-white;
-//   color: $color-grey-dark;
-// }
-
-// .btn::after {
-//   content: "";
-//   display: inline-block;
-//   height: 100%;
-//   width: 100%;
-//   border-radius: 10rem;
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   z-index: -1;
-//   transition: all 0.4s;
-// }
-
-// .btn-white::after {
-//   background-color: $color-white;
-// }
-
-// .btn:hover::after {
-//   transform: scaleX(1.4) scaleY(1.6);
-//   opacity: 0;
-// }
-
-// .btn--animated {
-//   animation: moveInBottom 0.5s ease-out 0.75s;
-//   animation-fill-mode: backwards;
-// }
-
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
@@ -214,8 +160,8 @@ body {
 }
 
 .btn--white {
-  background-color: #fff;
-  color: #777;
+  background-color: $color-white;
+  color: $color-grey-dark;
 }
 
 .btn::after {
@@ -232,7 +178,7 @@ body {
 }
 
 .btn-white::after {
-  background-color: #fff;
+  background-color: $color-white;
 }
 
 .btn:hover::after {
